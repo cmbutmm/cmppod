@@ -5,8 +5,8 @@ inputs:
   image:
     type: string
     enum:
-      - Ubuntu-16
-    default: Ubuntu-16
+      - ubuntu
+    default: ubuntu
     title: Select Image/OS
   size:
     type: string
