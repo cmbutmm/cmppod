@@ -215,6 +215,6 @@ resources:
         - 0
     properties:
       name: OC_Network
-      networkType: existing
+      networkType: outbound
       constraints:
-        - tag: 'env:vsphere'
+        - tag: 'net:on-demand'
